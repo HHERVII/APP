@@ -58,13 +58,14 @@ export const GeneraslScreen = () => {
     <Container heigth={heigth}>
       <Header tittle="Prueba APP" />
       <Body tittle="Prueba Básica" styleSelected={SelectData} />
-      <ButtonBlue
-        onPress={() => {
-          SelectModal('blue');
-        }}>
-        <TexButton>Azul</TexButton>
-      </ButtonBlue>
+
       <ContanierButtons>
+        <ButtonBlue
+          onPress={() => {
+            SelectModal('blue');
+          }}>
+          <TexButton>Azul</TexButton>
+        </ButtonBlue>
         <ButtonRed
           onPress={() => {
             SelectModal('red');
